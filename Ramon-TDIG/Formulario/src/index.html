@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pesquisa</title>
+    <link rel="stylesheet" href="/Ramon-TDIG/Formulario/styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Formulário de Pesquisa Acadêmico</h1>
+    </header>
+    <form id="survey-form">
+        <div class="form-group">
+            <label for="name" id="name-label" class="titulo_label">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+        </div>
+        <div class="form-group">
+            <label for="email" id="email-label" class="titulo_label">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+        </div>
+        <div class="form-group">
+            <label for="number" id="number-label" class="titulo_label">Idade</label>
+            <input type="number" id="number" name="age" placeholder="Digite sua idade" min="18" max="100" required>
+        </div>
+        <div class="form-group">
+            <label for="dropdown" class="titulo_label">Grau de Escolaridade:</label>
+            <select id="dropdown" name="option" required>
+                <option value="">Selecione uma opção</option>
+                <option value="opcao1">Ensino Fundamental</option>
+                <option value="opcao2">Ensino Médio</option>
+                <option value="opcao3">Ensino Superior</option>
+                <option value="opcao4">Pós-Graduação</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <fieldset>
+                <legend class="titulo_label">Escolha uma:</legend>
+                <input type="radio" class="radio" name="choice" value="escolha1" checked>
+                <label for="radio1">Apenas Estudo</label><br>
+                <input type="radio" class="radio" name="choice" value="escolha2">
+                <label for="radio2">Estudo e trabalho meio período</label><br>
+                <input type="radio" class="radio" name="choice" value="escolha3">
+                <label for="radio3">Estudo e trabalho integral</label>
+            </fieldset>
+        </div>
+        <div class="form-group">
+            <fieldset class="checkbox-group">
+                <legend class="titulo_label">Escolha várias, sobre as tecnologias que você estuda:</legend>
+                <input type="checkbox" id="checkbox1" name="option[]" value="opcao1">
+                <label for="checkbox1">HTML/CSS/JS</label><br>
+                <input type="checkbox" id="checkbox2" name="option[]" value="opcao2">
+                <label for="checkbox2">Python</label><br>
+                <input type="checkbox" id="checkbox3" name="option[]" value="opcao3">
+                <label for="checkbox3">Java</label><br>
+                <input type="checkbox" id="checkbox4" name="option[]" value="opcao4">
+                <label for="checkbox4">C/C++/C#</label>
+            </fieldset>
+        </div>
+        
+        <div class="form-group">
+            <label for="comments" class="titulo_label">Comentários:</label><br>
+            <textarea id="comments" name="comments" rows="4" placeholder="Fale um pouco sobre sua experiência com programação..."></textarea>
+        </div>
+        <button type="submit" id="submit" bold>Enviar</button>
+    </form>
+    <footer class="rodape">
+        <p class="rodape_texto">Desenvolvido por Pedro Lucas, Wagner Tiburcio, Arthur Marques</p>
+    </footer>
+</body>
+</html>
