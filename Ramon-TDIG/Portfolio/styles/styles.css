@@ -1,32 +1,46 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #E9C874;
   }
   
   #welcome-section {
     height: 100vh;
+    font-size: 58px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3498db;
+    background-color: #A34343;
     color: #fff;
     text-align: center;
   }
   
   .about-container {
     padding: 20px;
+    height: 30vh;
+    text-align: center;
   }
   
   #projects {
     padding: 50px 0;
-    background-color: #fff;
+    background-color: #FBF8DD;
   }
   
+  .project-view{
+    text-decoration: none;
+  }
+
+  .project-view:hover{
+    color: blue;
+  }
   .project-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .project_title{
+    text-align: center;
   }
   
   .project-tile {
@@ -34,7 +48,8 @@ body {
     padding: 20px;
     margin: 10px;
     border: 1px solid #ccc;
-    background-color: #fff;
+    border-radius: 8px;
+    background-color:orangered;
   }
   
   #contact-section {
@@ -60,6 +75,12 @@ body {
     background-color: #34495e;
     color: #fff;
   }
+
+  .profile-link{
+    text-decoration: none;
+    display: inline-block;
+    color: #111;
+  }
   
   /* Adicionando Media Query */
   @media screen and (max-width: 600px) {
@@ -67,7 +88,11 @@ body {
       width: calc(100% - 20px);
     }
   }
-  
+
+  .button-social:hover{
+    background-color: purple;
+    border: solid purple;
+  }
   /* Fixando o navbar na parte superior da viewport */
   #navbar {
     position: fixed;
