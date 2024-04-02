@@ -9,4 +9,4 @@ Disciplina ministrada pelo professor Ramon, na qual nesse repositório iremos co
 
 
 
-Parceria: Wagner Tibúrcio, Arthur Marques
+Idealizado por: Pedro Lucas, Wagner Tibúrcio, Arthur Marques
