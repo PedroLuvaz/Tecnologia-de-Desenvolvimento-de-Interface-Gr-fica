@@ -13,6 +13,12 @@
 
 <img src="https://github.com/PedroLuvaz/Tecnologia-de-Desenvolvimento-de-Interface-Grafica/blob/main/portfolio-screenshot.png" alt="portfolio">
 
+
+<h1 align="center">Página de Tributo</h1>
+
+<img src="https://github.com/PedroLuvaz/Tecnologia-de-Desenvolvimento-de-Interface-Grafica/blob/main/tribute_page.png" alt="tribute_page">
+
+
 <h2 align="center">Idealizado por: Pedro Lucas, Arthur Marques, Wagner Tibúrcio</h2>
 
 
