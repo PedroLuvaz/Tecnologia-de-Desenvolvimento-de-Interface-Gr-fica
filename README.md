@@ -10,7 +10,7 @@ Disciplina ministrada pelo professor Ramon, na qual nesse repositório iremos co
 
 
 <h1>Portfólio Pessoal</h1>
-![image](https://github.com/PedroLuvaz/Tecnologia-de-Desenvolvimento-de-Interface-Grafica/assets/113270952/d45788ba-2cd7-446b-bfb0-b055cdd75e2b)
+<img src="![image](https://github.com/PedroLuvaz/Tecnologia-de-Desenvolvimento-de-Interface-Grafica/assets/113270952/f446d9ce-691a-4d96-8d9d-6440913eaa30)">
 
 
 
